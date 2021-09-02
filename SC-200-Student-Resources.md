@@ -1,3 +1,56 @@
+# Key Resources for SC-200
+
+- GITHUB
+https://github.com/dave-007/SC-200T00A-Microsoft-Security-Operations-Analyst
+
+- LEARN PATH
+https://docs.microsoft.com/en-us/learn/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/
+
+I'll go through the learning path, fast forward when apropriate.
+
+
+- Azure Sentinel|security|Anything Ninja training
+
+
+
+- aka.ms/MDATPVideos TODO: WATCH THESE KEY RESOURCE
+- aka.ms/MDATPDocs
+- aka.ms/MDATPDocsTVMOverview
+
+- Interactive Guides 
+    - Threat and Vulnerability Management https://aka.ms/MSDE_TVM_IG
+
+
+______
+
+Product names to know
+
+- Microsoft Defender for Endpoint
+  - Threat and Vulnerability Management
+- Microsoft 365 Defender
+  - Azure AD Identity Protection
+  - Microsoft Defender for Office 365
+  - Microsoft Defender for Identity
+  - Microsoft Cloud App Security
+- Azure Defender
+- Azure Sentinel
+  - Data Connectors to all sources inc. 'Microsoft 365 Defender' ..
+  - Analytics
+  - Playbooks
+  - Security Incident Management
+  - Threat hunting
+- Microsoft Defender ATP (Advanced Threat Protection)
+  - EDR (Endpoint Detection & Response) , TEST TIP! -> Block Mode https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/introducing-edr-in-block-mode-stopping-attacks-in-their-tracks/ba-p/1596617
+  - https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/tvm-vulnerable-devices-report?view=o365-worldwide
+- Office 365 Threat Intelligence
+
+
+
+
+
+
+_______
+
 # SC-200 Delivery Prep Notes
 
 >> Note for existing Azure Passes!
@@ -8,37 +61,15 @@
 
 
 
-- GITHUB
-https://github.com/dave-007/SC-200T00A-Microsoft-Security-Operations-Analyst
-
-
-- LDC PDFs
-SC-200*.pdf
-
-https://docs.microsoft.com/en-us/learn/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/
-
-I'll go through the learning path, fast forward when apropriate.
-
-
--- Azure Sentinel Ninja training
-
-
 
 ## 7 Pillars
 
 ### Threat & Vulnerability Management
 
 - Diagram 
-https://i.imgur.com/yYGDCmn.png
+  - https://i.imgur.com/yYGDCmn.png
 
-URL
-
-aka.ms/MDATPVideos TODO: WATCH THESE KEY RESOURCE
-aka.ms/MDATPDocs
-aka.ms/MDATPDocsTVMOverview
-
-Interactive Guide: Threat and Vulnerability Management
-https://aka.ms/MSDE_TVM_IG
+#### URL
 
 
 ### Attack surface reduction rules
@@ -73,9 +104,6 @@ ATP
 
 ### Microsoft Threat Experts
 
-managed threat __ service
-
-- 
 - experts on demand
 
 ### Management & APIs
@@ -85,7 +113,10 @@ managed threat __ service
 
 ____
 
-Defender for Endpoint
+
+# PRODUCTS
+
+## Defender for Endpoint
 
 - aka.ms/mdatpdocs
 
@@ -97,7 +128,7 @@ Defender for Endpoint
   - https://www.microsoft.com/en-us/videoplayer/embed/RE4byD1?rel=0&postJsllMsg=true
 
 
-INteraction with other products:
+Interaction with other products:
 --> https://docs.microsoft.com/en-us/learn/modules/deploy-microsoft-defender-for-endpoints-environment/7-configure-environment-advanced-features
 ___ 
 
@@ -196,7 +227,7 @@ Microsoft Defender for Endpoint was formerly known as Microsoft Defender Advance
 You may see the old names still in use for a period of time.
 <<
 
-! Tried Connectors in Sentinel
+! Add Connectors in Sentinel
 , connected to Defender
 , connected to Active Directory
 , enabled UEBA https://docs.microsoft.com/en-us/azure/sentinel/enable-entity-behavior-analytics?WT.mc_id=Portal-Microsoft_Azure_Security_Insights
@@ -218,7 +249,8 @@ Resources - Ninja training -> http://aka.ms/mdeninja
 - TECH COMMUNITY
   - https://techcommunity.microsoft.com/t5/microsoft-365-defender/bg-p/MicrosoftThreatProtectionBlog
   
-
+>>
+TIP:
   To query data across workspaces, use the workspace() function before the table name.
 TableName
 | union workspace(“WorkspaceName").TableName
@@ -333,30 +365,11 @@ ____
 
 ...
 
-SKILLPIPE
+
 
 RBAC Roles
 
-Product names to know
 
-- Microsoft Defender for Endpoint
-  - Threat and Vulnerability Management
-- Microsoft 365 Defender
-  - Azure AD Identity Protection
-  - Microsoft Defender for Office 365
-  - Microsoft Defender for Identity
-  - Microsoft Cloud App Security
-- Azure Defender
-- Azure Sentinel
-  - Data Connectors to all sources inc. 'Microsoft 365 Defender' ..
-  - Analytics
-  - Playbooks
-  - Security Incident Management
-  - Threat hunting
-- Microsoft Defender ATP (Advanced Threat Protection)
-  - EDR (Endpoint Detection & Response) , Block Mode https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/introducing-edr-in-block-mode-stopping-attacks-in-their-tracks/ba-p/1596617
-  - https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/tvm-vulnerable-devices-report?view=o365-worldwide
-- Office 365 Threat Intelligence
 
 
 - Endpoint Linux Onboarding, install mdatp
