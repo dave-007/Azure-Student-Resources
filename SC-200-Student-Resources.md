@@ -213,12 +213,18 @@ Total of 4 interactive guides
 
 ## MOD 04
 
+### LOG ANALYTICS DEMO
+- https://aka.ms/LADemo
+
 - OK (more KSQL!)
 - https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/sqlcheatsheet
 
 - https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/best-practices
 
 ## MOD 05
+
+
+>> Discuss RBAC, usefulness of looking into the roles and their granular permissions to understand the role and tools better.
 
 https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration
 >>
@@ -257,7 +263,7 @@ TableName
 
 
 ### EX 1
-Needs E? licenses already enabled for tenant
+Needs E5 licenses already enabled for tenant
 ### Data Connectors
 
 -Screenshot of how many defenders Azure has.
@@ -280,6 +286,7 @@ EX 4 Good
 
 TODO: FIT IN LOGIC APP RESPONSE
 
+TODO: Show Sysmon config, agent install
 ## MOD 07
 
 EX 1
@@ -310,6 +317,13 @@ Not finding DeviceEvents source, try security events
 Resources
 - https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-workbooks-101-with-sample-workbook/ba-p/1409216
 - https://github.com/Azure/Azure-Sentinel-Notebooks/blob/8122bca32387d60a8ee9c058ead9d3ab8f4d61e6/A%20Getting%20Started%20Guide%20For%20Azure%20Sentinel%20ML%20Notebooks.ipynb
+
+
+
+
+_______
+
+## RESOURCES
 
 - Azure Monitor
   - table reference - https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/tables-category
@@ -355,8 +369,7 @@ Resources
 
   ```
 
-## LOG ANALYTICS DEMO
-- https://aka.ms/LADemo
+
 
 Azure Data Explorer export data
 
