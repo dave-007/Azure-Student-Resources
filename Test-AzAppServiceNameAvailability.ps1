@@ -19,6 +19,6 @@ $resultJson = $resultRequest.Content
 
 $result = $resultJson | ConvertFrom-JSON
 
-$result
+# $result
 
 $result.nameAvailable
